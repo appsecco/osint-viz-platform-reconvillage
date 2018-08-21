@@ -1,0 +1,689 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Monitoring phishing domains · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../about-us/" />
+    
+    
+    <link rel="prev" href="before_monitoring.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Welcome
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Introduction</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../intro/">
+            
+                <a href="../intro/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../intro/agenda.html">
+            
+                <a href="../intro/agenda.html">
+            
+                    
+                    Agenda
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../intro/disclaimer.html">
+            
+                <a href="../intro/disclaimer.html">
+            
+                    
+                    Disclaimer
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Getting Started</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../getting-started/setup_vm.html">
+            
+                <a href="../getting-started/setup_vm.html">
+            
+                    
+                    Setup Virtual Machine
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">ELK Stack</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../elk/">
+            
+                <a href="../elk/">
+            
+                    
+                    ELK Stack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../elk/alerting.html">
+            
+                <a href="../elk/alerting.html">
+            
+                    
+                    Alerting
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">SCENARIO 1 - SSL/TLS certificate monitoring</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../scenario1/">
+            
+                <a href="../scenario1/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../scenario1/data_source.html">
+            
+                <a href="../scenario1/data_source.html">
+            
+                    
+                    Data source
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="../scenario1/before_monitoring.html">
+            
+                <a href="../scenario1/before_monitoring.html">
+            
+                    
+                    Before monitoring
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="../scenario1/monitoring_subdomains.html">
+            
+                <a href="../scenario1/monitoring_subdomains.html">
+            
+                    
+                    Monitoring subdomains
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="../scenario1/use-cases.html">
+            
+                <a href="../scenario1/use-cases.html">
+            
+                    
+                    Use cases and ideas
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">SCENARIO 2 - Forward DNS (FDNS) dataset</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../scenario2/">
+            
+                <a href="../scenario2/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="../scenario2/data_source.html">
+            
+                <a href="../scenario2/data_source.html">
+            
+                    
+                    Data source
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="../scenario2/before_monitoring.html">
+            
+                <a href="../scenario2/before_monitoring.html">
+            
+                    
+                    Before monitoring
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="../scenario2/monitoring_domains.html">
+            
+                <a href="../scenario2/monitoring_domains.html">
+            
+                    
+                    Monitoring domains
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5" data-path="../scenario2/use-cases.html">
+            
+                <a href="../scenario2/use-cases.html">
+            
+                    
+                    Use cases and ideas
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">EXTRA SCENARIO - Monitoring phishing domains</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="data_source.html">
+            
+                <a href="data_source.html">
+            
+                    
+                    Data source
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="before_monitoring.html">
+            
+                <a href="before_monitoring.html">
+            
+                    
+                    Before monitoring
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="7.4" data-path="monitoring_phishing_domains.html">
+            
+                <a href="monitoring_phishing_domains.html">
+            
+                    
+                    Monitoring phishing domains
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">About Us</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="../about-us/">
+            
+                <a href="../about-us/">
+            
+                    
+                    About Us
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.1.1" data-path="../about-us/about-appsecco.html">
+            
+                <a href="../about-us/about-appsecco.html">
+            
+                    
+                    About Appsecco
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.2" data-path="../about-us/upcoming-conferences.html">
+            
+                <a href="../about-us/upcoming-conferences.html">
+            
+                    
+                    Upcoming Conferences
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.3" data-path="../about-us/about-bharath.html">
+            
+                <a href="../about-us/about-bharath.html">
+            
+                    
+                    About the trainers - Bharath Kumar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.4" data-path="../about-us/about-madhu.html">
+            
+                <a href="../about-us/about-madhu.html">
+            
+                    
+                    About the trainers - Madhu Akula
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.5" data-path="../about-us/about-riyaz.html">
+            
+                <a href="../about-us/about-riyaz.html">
+            
+                    
+                    About the trainers - Riyaz Walikar
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">References & Resources</li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" data-path="../references-and-resources.html">
+            
+                <a href="../references-and-resources.html">
+            
+                    
+                    References & Resources
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Monitoring phishing domains</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="monitoring-phishing-domains">Monitoring phishing domains</h1>
+<h2 id="lets-monitor-subdomains-at-near-real-time-using-certificate-transparency-data">Let&apos;s monitor subdomains at near real time using Certificate Transparency data</h2>
+<ul>
+<li>We&apos;ll use ELK stack to visualise and monitor for phishing domains</li>
+<li>We have already parsed the certificate transperancy logs in scenario-1. We use the same logs to monitor for phishing domains</li>
+</ul>
+<h3 id="how-do-we-do-this">How do we do this?</h3>
+<ul>
+<li>We will be using the <code>certstream</code> log search query</li>
+</ul>
+<p><img src="imgs/query-phishing-domain.png" alt="query phishing domain in discover search"></p>
+<h3 id="alerting-based-on-new-domains-created">Alerting based on new domains created</h3>
+<ul>
+<li>We can use opensource tools like elastalert to setup automated alerts based on new domains using the rules</li>
+<li>The below rule is the example rule to alert based on new domain SSL/TLS certificate creation. Here we will be using the domains we collected from the <code>dnstwist</code></li>
+</ul>
+<pre><code class="lang-yaml"><span class="hljs-attr">es_host:</span> localhost
+<span class="hljs-attr">es_port:</span> <span class="hljs-number">9200</span>
+<span class="hljs-attr">name:</span> <span class="hljs-string">&quot;New certificate alert&quot;</span>
+<span class="hljs-attr">type:</span> frequency
+<span class="hljs-attr">index:</span> filebeat-*
+<span class="hljs-attr">num_events:</span> <span class="hljs-number">1</span>
+<span class="hljs-attr">timeframe:</span>
+<span class="hljs-attr">  minutes:</span> <span class="hljs-number">1</span>
+
+<span class="hljs-comment"># For more info: http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl.html</span>
+
+<span class="hljs-attr">filter:</span>
+<span class="hljs-attr">- query:</span>
+<span class="hljs-attr">    query_string:</span>
+<span class="hljs-attr">      query:</span> <span class="hljs-string">&apos;tags: &quot;certstream&quot; AND name: &quot;*.insecurens.com&quot; AND name: &quot;*.insecurenss.com&quot;&apos;</span>
+
+<span class="hljs-attr">alert:</span>
+<span class="hljs-bullet">  -</span> slack
+
+<span class="hljs-attr">slack:</span>
+<span class="hljs-attr">slack_webhook_url:</span> <span class="hljs-string">&quot;https://hooks.slack.com/services/xxxxx&quot;</span>
+<span class="hljs-attr">slack_username_override:</span> <span class="hljs-string">&quot;alert-bot&quot;</span>
+<span class="hljs-attr">slack_emoji_override:</span> <span class="hljs-string">&quot;robot_face&quot;</span>
+
+<span class="hljs-attr">realert:</span>
+<span class="hljs-attr">  minutes:</span> <span class="hljs-number">0</span>
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="before_monitoring.html" class="navigation navigation-prev " aria-label="Previous page: Before monitoring">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../about-us/" class="navigation navigation-next " aria-label="Next page: About Us">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Monitoring phishing domains","level":"7.4","depth":1,"next":{"title":"About Us","level":"8.1","depth":1,"path":"about-us/README.md","ref":"about-us/README.md","articles":[{"title":"About Appsecco","level":"8.1.1","depth":2,"path":"about-us/about-appsecco.md","ref":"about-us/about-appsecco.md","articles":[]},{"title":"Upcoming Conferences","level":"8.1.2","depth":2,"path":"about-us/upcoming-conferences.md","ref":"about-us/upcoming-conferences.md","articles":[]},{"title":"About the trainers - Bharath Kumar","level":"8.1.3","depth":2,"path":"about-us/about-bharath.md","ref":"about-us/about-bharath.md","articles":[]},{"title":"About the trainers - Madhu Akula","level":"8.1.4","depth":2,"path":"about-us/about-madhu.md","ref":"about-us/about-madhu.md","articles":[]},{"title":"About the trainers - Riyaz Walikar","level":"8.1.5","depth":2,"path":"about-us/about-riyaz.md","ref":"about-us/about-riyaz.md","articles":[]}]},"previous":{"title":"Before monitoring","level":"7.3","depth":1,"path":"scenario3/before_monitoring.md","ref":"scenario3/before_monitoring.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"scenario3/monitoring_phishing_domains.md","mtime":"2018-08-21T11:10:28.620Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-08-21T11:12:29.944Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
