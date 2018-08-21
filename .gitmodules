@@ -1,3 +1,6 @@
 [submodule "code/scenario1/certstream-server"]
 	path = code/scenario1/certstream-server
 	url = https://github.com/CaliDog/certstream-server.git
+[submodule "code/scenario3/dnstwist"]
+	path = code/scenario3/dnstwist
+	url = https://github.com/yamakira/dnstwist.git
